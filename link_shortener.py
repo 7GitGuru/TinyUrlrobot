@@ -35,7 +35,7 @@ async def start(message: aiogram.types.Message):
         "Welcome to TinyURLrobot! 🤖\n"
         "I'm here to help you shorten your URLs quickly and easily.\n\n"
         "Owner: @Cod3rX\n"  # Replace @username with your actual username
-        "Source: [GitHub](https://github.com/7GitGuru/Url-Shortener-Bot)"
+        "Source: [GitHub](https://github.com/7GitGuru/TinyUrlrobot)"
     )
     await message.reply(start_text, parse_mode='Markdown', disable_web_page_preview=True)
 
